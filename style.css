@@ -1,0 +1,160 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: tomato;
+}
+.heading{
+    color: #293443;
+    font-weight: 600;
+}
+.heading1{
+    padding-bottom: 20px;
+    margin-bottom: -25px;
+    margin-top: -14px;
+
+}
+
+#row{
+    text-align: center;
+
+}
+hr{
+    size: 2;
+}
+
+#formdiv{
+    width: 400px;
+    height: 450px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 117px;
+    padding-top: 20px;
+    margin-bottom: 117px;
+}
+.styleinput{
+    margin-top: 15px;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    background-color: #293443;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+
+}
+#select{
+    margin-top: 15px;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    background-color: #293443;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 48px;
+
+}
+.resetlogin{
+    height: 40px;
+    width: 100px;
+    background-color: #293443;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    margin-left: -111px;
+
+}
+#Login{
+    height: 40px;
+    width: 100px;
+    background-color: #293443;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    position: absolute;
+    margin-top: -40px;
+}
+#Login:hover{
+    background-color: tomato;
+    transition: .4s;
+    transform-origin:left;
+}
+.resetlogin:hover{
+    background-color: tomato;
+    transition: .4s;
+    transform-origin:left;
+}
+
+/*transition area*/
+
+#container2 {
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: none;
+}
+
+
+.transitionstyle{
+    padding: 10px , 20px;
+    background-color: #293443;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.transitionstyle2{
+margin-top: 82px;
+margin-bottom: 82px;
+text-align: left;
+padding-left: 20px;
+margin-top: 70px;
+margin-bottom: 70px;
+
+margin-left: 50px;
+margin-right: 50px;
+}
+
+#Deposite-Money{
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: none;
+    background-color: #FAF566;
+    color: black;
+    font-weight: 600;
+
+}
+#Withdraw-Money{
+    margin-top: 20px;
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    border: none;
+    background-color: #FAF566;
+    color: black;
+    font-weight: 600;
+}
+input{
+    height: 35px;
+    width: 331px;
+    margin-top: 10px;
+}

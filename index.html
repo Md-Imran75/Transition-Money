@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition and Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+
+
+</head>
+<body id="Body">
+    
+
+
+   <div id="container">
+       <div id="row">
+           
+           
+             <div id="formdiv">
+                <form action="">
+                    <h2 class="heading heading1 "  >Imran Bank</h2>
+                    <hr>
+                    
+                <input type="text" placeholder="Type your name" class="styleinput"><br>
+               
+                <input type="text" placeholder="Type your phone number" class="styleinput"><br>
+                
+                  <select class="form-control styleinput" name="gender" id="select" >
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                  </select>
+             
+                <input type="text" placeholder="Type your email" class="styleinput"><br>
+                <input type="password" placeholder="Type your password" class="styleinput"><br>
+                <input type="reset" class="resetlogin">
+                
+                </form>
+                <button id="Login" >Login</button>
+             </div>
+           
+       </div>
+   </div>
+
+
+
+  <div id="container2" mt-3>
+    <div class="row  text-center">
+      
+
+     <div class="col-md-4">
+       <div class="deposite transitionstyle">
+        <h5>Deposite Balance</h5>
+       <h2>$ <span id="deposite">00</span></h2>
+       </div>
+       
+    
+    </div>
+     <div class="col-md-4">
+      <div class="withdraw transitionstyle">
+        <h5>Withdraw Balance</h5>
+       <h2>$ <span id="withdraw">00</span></h2>
+       </div>
+     </div>
+
+
+     <div class="col-md-4">
+      <div class="totalbalance transitionstyle">
+        <h5>Total Balance</h5>
+       <h2>$ <span id="totalBlance">125</span></h2>
+       </div>
+     </div>
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="transitionstyle transitionstyle2">
+          <h4>Deposite</h4>
+        <div class="depositeinput" ><input type="text" id="InputMoney" placeholder="$ Deposite Your Money "><br>
+          <button id="Deposite-Money">Deposite</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="transitionstyle transitionstyle2">
+          <h4>Withdraw</h4>
+        <div class="depositeinput" ><input type="text" placeholder="$ Deposite Your Money " id="InputWithdraw"><br>
+          <button id="Withdraw-Money">Withdraw</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+     </div>
+
+    
+   </div>
+
+
+
+
+    <script src="hello.js"></script>
+</body>
+</html>
